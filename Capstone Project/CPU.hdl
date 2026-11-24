@@ -30,5 +30,5 @@ CHIP CPU {
     Or(a=jlt, b=jeq, out=tmpJump);
     Or(a=tmpJump, b=jgt, out=jumpCond);
     And(a=instruction[15], b=jumpCond, out=loadPC);
-    PC(in=aOut, load=loadPC, inc=true, reset=reset, out=pc);
+    PC(in=aOut, load=loadPC, inc=true, reset=reset, out[0..14]=pc);
 }
