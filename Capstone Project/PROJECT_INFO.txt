@@ -1,4 +1,0 @@
-Nand2Tetris Capstone | K=46
-K mod 3 = 1: line-numbered invalid instruction errors
-K mod 4 = 2: 48-pixel width, 20 rows high, starts at row 46
-Box.hack instruction count: 70
